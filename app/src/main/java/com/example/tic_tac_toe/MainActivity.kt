@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
       insets
     }
 
+
     Log.d("MainActivity", "onCreate $savedInstanceState")
 
     val statusText = findViewById<TextView>(R.id.statusText)
